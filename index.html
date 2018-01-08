@@ -1,0 +1,53 @@
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="refresh" content="5">
+
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#C8EDFF">
+
+  <link href="styles/calendar.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  </head>
+  <body>
+      <div class="date">JUL 17</div>
+      <div class="events">
+        <div class="event size-2 focus" style="top: 60px">write the algo</div>
+        <div class="event size-0-5 meeting-repeat" style="top: 175px">daily standup</div>
+        <div class="event size-0-5 meeting" style="top: 210px">feature meeting</div>
+        <div class="event size-0-5 break" style="top: 245px">break</div>
+        <div class="event size-0-5 food" style="top: 280px">lunch</div>
+        <div class="event size-2 focus" style="top: 315px">fix dem bugs</div>
+        <div class="event size-0-5 break" style="top: 430px">break</div>
+        <div class="event size-0-5 meeting" style="top: 465px">product requirements</div>
+        <div class="event size-1-5 focus" style="top: 500px">test out edge cases</div>
+
+      </div>
+      <div class="timeline">
+        <div class="time">10 AM</div>
+        <div class="time">11</div>
+        <div class="time">12</div>
+        <div class="time">1</div>
+        <div class="time">2</div>
+        <div class="time">3</div>
+        <div class="time">4</div>
+        <div class="time">5</div>
+        <div class="time">6</div>
+        <div class="time">7</div>
+      </div>
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="scripts/touch-punch.js"></script>
+
+      <script>
+      $(function() {
+  $('.event').draggable({
+    axis: 'x',
+    // grid: [0.25, 5],
+    opacity: 0.7
+  })
+})
+</script>
+  </body>
+</html>

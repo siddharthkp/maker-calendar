@@ -1,0 +1,85 @@
+/*#F5F7FA*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Nunito', monospace;
+  background: #F5F7FA;
+  color: #555;
+  font-size: 16px;
+}
+.date {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #EEE;
+}
+.timeline {
+  position: absolute;
+  top: 60px;
+  height: calc(100% - 100px);
+  color: #CCC;
+}
+.time {
+  height: 50px;
+  padding: 5px 10px;
+  width: 20px;
+  line-height: 0.9;
+}
+.event {
+  width: calc(100% - 90px);
+  margin: 5px auto;
+  margin-left: 40px;
+  padding: 5px 20px;
+  background: #FFF;
+  border-radius: 3px;
+  box-shadow: 0px 3px 5px 2px rgba(201, 214, 255, 0.15);
+  position: absolute;
+  color: #FFF;
+}
+.size-0-5 {
+  height: 20px;
+  line-height: 20px;
+}
+.size-1 {
+  height: 50px;
+  line-height: 50px;
+}
+.size-1-5 {
+  height: 70px;
+  line-height: 70px;
+}
+.size-2 {
+  height: 100px;
+  line-height: 100px;
+}
+
+.focus {
+  background: #5B8CD4;
+  z-index: 1;
+}
+.meeting-repeat {
+  background: #FFCB39;
+  color: #555;
+  z-index: 2;
+}
+.meeting {
+  background: #E35D7E;
+  z-index: 3;
+}
+.break {
+  background: #32C9D2;
+  z-index: 4;
+}
+.food {
+  background: #8699BC;
+  z-index: 5;
+}
+/*
+#50E3C2;
+#99F7FA;
+#8699BC;
+#9C80EE;
+#B0B8C1;
+#32C9D2;*/

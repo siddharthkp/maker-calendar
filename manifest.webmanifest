@@ -1,0 +1,13 @@
+{
+  "name": "maker",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#C8EDFF",
+  "theme_color": "#C8EDFF",
+  "description": "take control of your time",
+  "icons": [{
+    "src": "icon.png",
+    "sizes": "300x300",
+    "type": "image/png"
+  }]
+}
